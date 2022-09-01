@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <Header />
+    <AppHeader />
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header";
+import AppHeader from "@/components/AppHeader";
 
 export default {
   name: 'App',
   components: {
-
+    AppHeader
   }
 }
 </script>
 
 <style>
-
+@import "assets/static/scss/main.scss";
 </style>
